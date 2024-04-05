@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>mot de passe</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<h1>Create your password</h1>
+
+
+<div class="formulaire">
+    <form>
+
+        <div id="containerPassword">
+            <label for="password">Your password</label>
+            <input type="text" id="password">
+        </div>
+
+        <div class="containerAnswer">
+            <label for="length">length</label>
+            <input type="number" value="15" id="length">
+        </div>
+
+        <div class="containerQestion">
+            numbers ?
+        </div>
+        <div class="containerAnswer">
+            <div class="containerYes">
+                <label for="numberyes">yes</label>
+                <input type="radio" id='numberyes' name="number" value="yes" checked>
+            </div>
+
+            <div class="containerNo">
+                <label for="numberno">no</label>
+                <input type="radio" id="numberno" name="number" value="no">
+            </div>
+        </div>
+        <div class="containerQestion">
+            specials characters ?
+        </div>
+        <div class="containerAnswer">
+            <div class="containerYes">
+                <label for="specialsyes">yes</label>
+                <input type="radio" id='specialsyes' name="special" value="yes" checked>
+            </div>
+
+            <div class="containerNo">
+                <label for="specialsno">no</label>
+                <input type="radio" id="specialsno" name="special" value="no">
+            </div>
+        </div>
+        <div id="containerButton">
+            <button value="Génerer" id="button">
+                Generate
+            </button>
+        </div>
+    </form>
+</div>
+</body>
+</html>

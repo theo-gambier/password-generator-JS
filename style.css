@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+.formulaire {
+    background-color: black;
+    width: 500px;
+    align-content: space-between;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.containerAnswer {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px 0;
+}
+
+#containerPassword {
+    display: none;
+    justify-content: space-evenly;
+    margin: 5px 0;
+}
+
+#containerPassword label {
+    color: #fdfdfd;
+}
+
+.containerAnswer label {
+    color: #fdfdfd;
+}
+
+.containerQestion {
+    color: #fdfdfd;
+    margin: 5px 0;
+}
+
+#containerButton {
+    display: flex;
+    justify-content: center;
+    height: 20px;
+}
+
+#button {
+    width: 70px;
+    height: 20px;
+}
+
+#password {
+    width: 300px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;margin: 70px;
+}
